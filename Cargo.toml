@@ -1,0 +1,18 @@
+[package]
+name = "pooh"
+version = "0.1.0"
+authors = ["badpooh <badpooh@poohvpn.com>"]
+edition = "2018"
+description = "PoohVPN utils library"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+socket2 = "0.3"
+async-std = { version = "1", features = ["unstable"] }
+async-trait = "0.1.48"
+bytes = "1.0.1"
+
+[dev-dependencies]
+hex = "0.4.2"
